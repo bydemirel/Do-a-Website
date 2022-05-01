@@ -13,7 +13,7 @@ const Categories = () => {
                       Quas volupta, ab in corporis.Voluptatem cum harum ipsum, 
                       facilis ducimus varitatis optio.
                   </p>
-                  <a href="" className='btn'>Daha Fazla</a>
+                  <a href="abc" className='btn'>Daha Fazla</a>
               </div>
 
               <div className="categories_right">

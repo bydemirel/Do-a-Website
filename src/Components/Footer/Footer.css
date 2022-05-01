@@ -1,0 +1,34 @@
+footer{
+    background: var(--color-bg1);
+    padding-top: 5rem;
+    font-size: 0.9rem;
+}
+
+.footer_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15rem;
+}
+
+.footer_container > div h4{
+    margin-bottom: 1.2rem;
+}
+
+.footer_1 p{
+    margin: 0 0 2rem;
+}
+
+footer ul li{
+    margin-bottom: 0.7rem;
+}
+
+footer ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer_copyright{
+    text-align: center;
+    margin-top: 4rem;
+    padding: 1.2rem 0;
+    border-top: 1px solid var(--color-bg2);
+}

@@ -9,15 +9,15 @@ const Navbar = () => {
               <a href=""><h4>DOĞA</h4></a>
               <ul className='nav_menu'>
                   <li>
-                      <a href="">Ana Sayfa</a>
+                      <a href="#">Ana Sayfa</a>
                   </li>
 
                   <li>
-                      <a href="">Hakkımızda</a>
+                      <a href="#">Hakkımızda</a>
                   </li>
 
                   <li>
-                      <a href="">İletişim</a>
+                      <a href="#">İletişim</a>
                   </li>
               </ul>
 

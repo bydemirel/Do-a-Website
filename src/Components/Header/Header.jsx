@@ -11,7 +11,7 @@ const Header = () => {
                   <p>
                   Her Çocuk benzersizdir ve kendi gelişiminin kahramanıdır.
                   </p>
-                  <a href="" className='btn btn-primary'>İletişim</a>
+                  <a href="/" className='btn btn-primary'>İletişim</a>
               </div>
               <div className="header_right">
                   <div className="header_right-image">
