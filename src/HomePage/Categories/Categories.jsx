@@ -36,8 +36,6 @@ const Categories = () => {
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nisi.</p>
                   </article>
 
-
-
                   <article className='category'>
                       <span className='category_icon'><i><FaTree></FaTree></i></span>
                       <h5>Atölyemiz</h5>

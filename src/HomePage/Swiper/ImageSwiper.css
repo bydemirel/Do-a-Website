@@ -1,0 +1,39 @@
+.swiper_container{
+    overflow-x: hidden;
+    position: relative;
+    margin-bottom: 5rem;
+    margin-top: 10rem;
+}
+
+.slider{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.swiper{
+    padding-top: 2rem;
+}
+
+.image_container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+
+@media screen and (max-width: 1024px){
+    .swiper_container{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .slider{
+        gap: 1rem;
+    }
+  }
+

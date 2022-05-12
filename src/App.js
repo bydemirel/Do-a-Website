@@ -1,20 +1,28 @@
-import './App.css';
-import Categories from './Components/Categories/Categories';
-import FAQs from './Components/FAQ\'s/FAQs';
-import Footer from './Components/Footer/Footer';
-import Header from './Components/Header/Header';
-import Navbar from './Components/Navbar/Navbar';
-import ScriptFile from "./Script.js";
+import "./App.css";
+import Navbar from "./Components/Navbar/Navbar";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  BrowserRouter,
+} from "react-router-dom";
+import Script from "./Script.js";
+import HomePage from "./HomePage/HomePage";
+import AboutUsPage from "./AboutUsPage/AboutUsPage";
+import ContactPage from "./ContactPage/ContactPage";
 function App() {
   return (
     <div className="App">
+      <BrowserRouter>
       <Navbar></Navbar>
-      <Header></Header>
-      <Categories></Categories>
-      <FAQs></FAQs>
-      <Footer></Footer>
+        <Routes>
+          <Route path="/" element={<HomePage/>}/>
+          <Route path="/hakkimizda" element={<AboutUsPage/>}/>
+          <Route path="/iletisim" element={<ContactPage/>}/>
+        </Routes>
+      </BrowserRouter>
 
-      <script src={ScriptFile}></script>
+      <script src="Script.js?2"></script>
     </div>
   );
 }

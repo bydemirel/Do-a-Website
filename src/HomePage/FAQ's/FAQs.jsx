@@ -45,7 +45,7 @@ const FAQs = () => {
     <section className="faqs">
       <h2>Sıkça Sorunlan Sorular</h2>
       <div className="container faqs_container">
-        <article className="faq" onClick={handleClick1}>
+        <article className={iconName1 === "plus_icon" ? "faq":"faq open"} onClick={handleClick1}>
           <div className="faq_icon">
             <i className={iconName1}>
               {iconName1 === "plus_icon" ? (
@@ -61,7 +61,7 @@ const FAQs = () => {
           </div>
         </article>
 
-        <article className="faq" onClick={handleClick2}>
+        <article className={iconName2 === "plus_icon"  ? "faq":"faq open"} onClick={handleClick2}>
           <div className="faq_icon">
             <i className={iconName2}>
               {iconName2 === "plus_icon" ? (
@@ -77,7 +77,7 @@ const FAQs = () => {
           </div>
         </article>
 
-        <article className="faq" onClick={handleClick3}>
+        <article className={iconName3 === "plus_icon" ? "faq":"faq open"} onClick={handleClick3}>
           <div className="faq_icon">
             <i className={iconName3}>
               {iconName3 === "plus_icon" ? (
@@ -93,7 +93,7 @@ const FAQs = () => {
           </div>
         </article>
 
-        <article className="faq" onClick={handleClick4}>
+        <article className={iconName4 === "plus_icon" ? "faq":"faq open"} onClick={handleClick4}>
           <div className="faq_icon">
             <i className={iconName4}>
               {iconName4 === "plus_icon" ? (
