@@ -1,8 +1,6 @@
 .swiper_container{
-    overflow-x: hidden;
-    position: relative;
-    margin-bottom: 5rem;
-    margin-top: 10rem;
+    height: 50vh;
+    margin-top: 12rem;
 }
 
 .slider{

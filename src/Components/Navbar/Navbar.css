@@ -29,6 +29,10 @@ nav button{
     transition: var(--transition);
 }
 
+.nav_menu_open a{
+    transition: var(--transition);
+}
+
 .nav_menu{
     display:flex;
     align-items: center;
@@ -45,6 +49,9 @@ nav button{
     color: var(--color-bg2);
 }
 
+.nav_menu_open a:hover{
+    color:var(--color-bg2)
+}
 
 @media screnn and (max-width: 1025px)
 {

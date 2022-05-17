@@ -85,20 +85,38 @@
 }
 
 @media screen and (max-width: 600px) {
+
+  .categories{
+    cursor: none;
+  }
+
   .categories_left {
     margin-right: 0;
     height: 100%;
   }
 
   .categories_right{
-    grid-template-columns: repeat(1, 1fr);
-    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
     margin: auto;
+  }
+
+  .category_icon i{
+    font-size: 1.5rem;
   }
 
   .category {
     padding: 1rem;
+    width: 10rem;
     border-radius: 1rem;
+  }
+
+  .category h5 {
+    font-size: 1rem;
+  }
+
+  .category p {
+    font-size: 0.9rem;
   }
 
   .category_icon{

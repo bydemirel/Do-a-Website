@@ -24,21 +24,29 @@ const Navbar = () => {
         setMenuBar(true);
     }
 
+    const handleClickLink = () => {
+        setShowMenu(false);
+        setClose(false);
+        setMenuBar(true);   
+    }
+
+
+
   return (
       <nav>
           <div className="container nav_container">
-              <a href=""><h4>DOĞA</h4></a>
+              <a href="/"><h4>DOĞA</h4></a>
               <ul className={showMenu ? 'nav_menu':'nav_menu_open'}>
                   <li>
-                    <Link to="/">Ana Sayfa</Link>
+                    <Link to="/" onClick={handleClickLink} >Ana Sayfa</Link>
                   </li>
 
                   <li>
-                      <Link to="/hakkimizda">Hakkımızda</Link>
+                      <Link to="/hakkimizda"  onClick={handleClickLink} >Hakkımızda</Link>
                   </li>
 
                   <li>
-                      <Link to="/iletisim">İletişim</Link>
+                      <Link to="/iletisim"  onClick={handleClickLink} >İletişim</Link>
                   </li>
               </ul>
 
