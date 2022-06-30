@@ -27,7 +27,8 @@ const Navbar = () => {
     const handleClickLink = () => {
         setShowMenu(false);
         setClose(false);
-        setMenuBar(true);   
+        setMenuBar(true);
+        window.scrollTo(0,0);   
     }
 
 

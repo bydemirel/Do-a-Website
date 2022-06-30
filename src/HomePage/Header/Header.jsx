@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Header.css"
 import HeaderImg from '../../images/header.svg';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -11,7 +12,9 @@ const Header = () => {
                   <p>
                   Her Çocuk benzersizdir ve kendi gelişiminin kahramanıdır.
                   </p>
-                  <a href="/" className='btn btn-primary'>İletişim</a>
+                  <Link to="/iletisim" onClick={()=>{
+                    window.scrollTo(0,0);
+                  }} className='btn btn-primary'>İletişim</Link>
               </div>
               <div className="header_right">
                   <div className="header_right-image">

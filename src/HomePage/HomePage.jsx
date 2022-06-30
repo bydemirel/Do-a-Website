@@ -3,7 +3,7 @@ import Categories from "./Categories/Categories";
 import FAQs from "./FAQ's/FAQs";
 import Footer from "../Components/Footer/Footer";
 import Header from "./Header/Header";
-import ImageSwiper from "./Swiper/ImageSwiper";
+import ImageSwiper from "../Components/Swiper/ImageSwiper";
 
 
 const HomePage = () => {

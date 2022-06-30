@@ -2,7 +2,6 @@ import React from "react";
 import "./Contact.css";
 import {AiFillPhone, AiFillMail, AiFillFacebook, AiFillInstagram, AiFillLinkedin} from "react-icons/ai";
 import {IoLocationSharp} from "react-icons/io5";
-import { Link } from "react-router-dom";
 import contactImg from "../../images/contact.svg";
 const Contact = () => {
   return (
@@ -35,9 +34,9 @@ const Contact = () => {
           </ul>
 
           <ul className="contact_socials">
-              <li><a href="https://www.facebook.com" target="_blank"><i className="facebook_icon"><AiFillFacebook></AiFillFacebook></i></a></li>
-              <li><a href="https://www.instagram.com" target="_blank"><i className="insta_icon"><AiFillInstagram></AiFillInstagram></i></a></li>
-              <li><a href="https://www.linkedin.com" target="_blank"><i className="linkedin_icon"><AiFillLinkedin></AiFillLinkedin></i></a></li>
+              <li><a href="https://www.facebook.com" rel="noreferrer" target="_blank"><i className="facebook_icon"><AiFillFacebook></AiFillFacebook></i></a></li>
+              <li><a href="https://www.instagram.com" rel="noreferrer" target="_blank"><i className="insta_icon"><AiFillInstagram></AiFillInstagram></i></a></li>
+              <li><a href="https://www.linkedin.com" rel="noreferrer" target="_blank"><i className="linkedin_icon"><AiFillLinkedin></AiFillLinkedin></i></a></li>
           </ul>
         </aside>
 

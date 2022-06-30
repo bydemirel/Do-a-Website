@@ -2,6 +2,7 @@ import React from "react";
 import "./Footer.css";
 import { AiFillPhone } from "react-icons/ai";
 import { IoIosMail } from "react-icons/io";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="footer">
@@ -17,13 +18,19 @@ const Footer = () => {
           <h4>Hızlı Erişim</h4>
           <ul className="permalinks">
             <li>
-              <a href="/">Anasayfa</a>
+              <Link to="/" onClick={()=>{
+                window.scrollTo(0,0);
+              }}>Anasayfa</Link>
             </li>
             <li>
-              <a href="/">Hakkımızda</a>
+              <Link to="/hakkimizda" onClick={()=>{
+                window.scrollTo(0,0);
+              }}>Hakkımızda</Link>
             </li>
             <li>
-              <a href="/">İletişim</a>
+              <Link to="/iletisim" onClick={()=>{
+                  window.scrollTo(0,0);
+              }}>İletişim</Link>
             </li>
           </ul>
         </div>

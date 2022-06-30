@@ -15,23 +15,50 @@
 }
 
 .image_container{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     overflow: hidden;
+}
+
+img{
+    border-radius: 5%;
+}
+
+.constant_image{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
 }
 
 
 @media screen and (max-width: 1024px){
+
+    .slider{
+        gap: 2rem;
+    }
+
+    .constant_image{
+        height: 150px;
+        width: 200px;
+        object-fit: cover;
+    }
+
     .swiper_container{
         margin-top: 0;
-        margin-bottom: 0;
+        margin-bottom: 3rem;
     }
 }
 
 @media screen and (max-width: 600px) {
+
+    .constant_image{
+        height: 100px;
+        width: 100px;
+        object-fit: cover;
+    }
+
     .slider{
         gap: 1rem;
+        padding-bottom: 3rem;
     }
+
   }
 

@@ -1,6 +1,8 @@
 import React from 'react'
 import "./ImageSwiper.css";
 import Img from "../../images/avatar1.jpg";
+import Img2 from "../../images/avatar2.jpg";
+import Img3 from "../../images/avatar3.jpg";
 
 
 const ImageSwiper = () => {
@@ -11,19 +13,19 @@ const ImageSwiper = () => {
       <div className='slider'>
         <article className='swiper'>
           <div className='image_container'>
-            <img src={Img} alt="" />
+            <img className="constant_image" src={Img} />
           </div>
         </article>
 
         <article className='swiper'>
           <div className='image_container'>
-            <img src={Img} alt="" />
+            <img  className="constant_image"  src={Img2} />
           </div>
         </article>
 
         <article className='swiper'>
           <div className='image_container'>
-            <img src={Img} alt="" />
+            <img  className="constant_image" src={Img3} />
           </div>
         </article>
       </div> 
