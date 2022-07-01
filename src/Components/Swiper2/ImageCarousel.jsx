@@ -13,8 +13,8 @@ import "slick-carousel/slick/slick-theme.css";
 const ImageCarousel = () => {
     var settings = {
         dots: true,
-        infinite: false,
-        speed: 1000,
+        infinite: true,
+        speed: 1500,
         slidesToShow: 3,
         slidesToScroll: 3,
         initialSlide: 0,
