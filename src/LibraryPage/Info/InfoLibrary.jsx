@@ -1,9 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Img from "../../images/header.svg";
-import "./Info.css";
 
-const Info = () => {
+const InfoLibrary = () => {
   const handleCategoryClick1 = () => {};
   return (
     <section className="info">
@@ -76,4 +75,4 @@ const Info = () => {
   );
 };
 
-export default Info;
+export default InfoLibrary;
