@@ -26,24 +26,24 @@ const InfoForrest = () => {
         <div className="container info_container1">
           <h3>Diğer Doğa'da Yaşamlar</h3>
 
-          <article className="info_article" onClick={handleCategoryClick1}>
+          <article className="info_article">
             <img src={Img} alt="" />
-            <h5>Orman Günleri</h5>
+            <a href="/bahcemiz"><h5>Bahçemiz</h5></a>
           </article>
 
-          <article className="info_article" onClick={handleCategoryClick1}>
+          <article className="info_article" >
             <img src={Img} alt="" />
-            <h5>Orman Günleri</h5>
+            <a href="/atolyemiz"><h5>Atölyemiz</h5></a>
           </article>
 
-          <article className="info_article" onClick={handleCategoryClick1}>
+          <article className="info_article" >
             <img src={Img} alt="" />
-            <h5>Orman Günleri</h5>
+            <h5>Sağlık ve Beslenme</h5>
           </article>
 
-          <article className="info_article" onClick={handleCategoryClick1}>
+          <article className="info_article" >
             <img src={Img} alt="" />
-            <h5>Orman Günleri</h5>
+            <a href="/siniflarimiz"><h5>Sınıflarımız</h5></a>
           </article>
         </div>
 

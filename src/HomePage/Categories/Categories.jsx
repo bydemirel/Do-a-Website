@@ -9,34 +9,42 @@ const Categories = () => {
 
     const handleCategoryClick1 = () => {
         navigate('/ormangunleri');
+        window.scrollTo(0,0);
     }
 
     const handleCategoryClick2 = () => {
         navigate('/siniflarimiz');
+        window.scrollTo(0,0);
     }
 
     const handleCategoryClick3 = () => {
         navigate('/bahcemiz');
+        window.scrollTo(0,0);
     }
 
     const handleCategoryClick4 = () => {
         navigate('/atolyemiz');
+        window.scrollTo(0,0);
     }
 
     const handleCategoryClick5 = () => {
         navigate('/kutuphanemiz');
+        window.scrollTo(0,0);
     }
 
     const handleCategoryClick6 = () => {
         navigate('/ozelgunlerimiz');
+        window.scrollTo(0,0);
     }
 
     const handleCategoryClick7 = () => {
         navigate('/hareketegitimi');
+        window.scrollTo(0,0);
     }
 
     const handleCategoryClick8 = () => {
         navigate('/saglikvebeslenme');
+        window.scrollTo(0,0);
     }
 
 

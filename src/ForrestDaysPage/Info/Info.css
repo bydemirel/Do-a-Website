@@ -16,6 +16,12 @@
 
 }
 
+.info_article img:hover, .info_article h5:hover{
+    cursor: pointer;
+    color: var(--color-primary);
+    transition: var(--transition);
+}
+
 .info_left{
     gap: 4rem;
     display: flex;

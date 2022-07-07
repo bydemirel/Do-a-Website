@@ -7,7 +7,7 @@ const InfoClass = () => {
   return (
     <section className="info">
       <div className="info_left">
-        <h1 className="info_left_title">Doğa'da Orman Günleri</h1>
+        <h1 className="info_left_title">Sınıflarımız</h1>
 
         <div className="info_left_image">
           <img src={Img} alt="" />
@@ -27,22 +27,22 @@ const InfoClass = () => {
 
           <article className="info_article" onClick={handleCategoryClick1}>
             <img src={Img} alt="" />
-            <h5>Orman Günleri</h5>
+            <a href="/bahcemiz"><h5>Bahçemiz</h5></a>
           </article>
 
           <article className="info_article" onClick={handleCategoryClick1}>
             <img src={Img} alt="" />
-            <h5>Orman Günleri</h5>
+            <a href="/atolyemiz"><h5>Atölyemiz</h5></a>
           </article>
 
           <article className="info_article" onClick={handleCategoryClick1}>
             <img src={Img} alt="" />
-            <h5>Orman Günleri</h5>
+            <h5>Sağlık ve Beslenme</h5>
           </article>
 
           <article className="info_article" onClick={handleCategoryClick1}>
             <img src={Img} alt="" />
-            <h5>Orman Günleri</h5>
+            <a href="/kutuphanemiz"><h5>Kütüphanemiz</h5></a>
           </article>
         </div>
 
