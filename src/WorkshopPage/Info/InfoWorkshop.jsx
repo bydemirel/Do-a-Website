@@ -7,19 +7,32 @@ const InfoWorkshop = () => {
   return (
     <section className="info">
       <div className="info_left">
-        <h1 className="info_left_title">Atölyemiz</h1>
+        <h1 className="info_left_title">Düşen Yumurtayı Kurtarma Etkinliği</h1>
 
         <div className="info_left_image">
           <img src={Img} alt="" />
         </div>
         <p className="info_left_text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quas volupta,
-          ab in corporis.Voluptatem cum harum ipsum, facilis ducimus varitatis
-          optio.
+          Takımın zaman baskısı altında hareket etmesi ve tepki vermesi gereken
+          bir etkinlik.
+          <br /> <br />
+          <b>Malzemeler: </b> Çiğ yumurta; ip; bant;
+          kronometre(yumurtaların ziyan olmaması için yumurta eşdeğer ağırlıkta,
+          erik vb. meyveler de kullanılabilir.)
+          <br /> <br />
+          <b>Hazırlık: </b> İp yüksek bir dalın
+          üzerinden atılır; sabitlenir. Diğer ucuna ise yumurta yapıştırılıp
+          3-4m ( yaş gurubuna göre daha kısa tutulabilir.) yukarıya çekilir.
+          <br /><br />
+          <b>Süreç: </b> Takıma yumurtanın 5 dakika sonra yere düşeceği açıklanarak,
+          takımdaki çocukların sadece ormanda buldukları doğal malzemeleri
+          kullanarak yumurtayı kırılmaktan kurtaracak yöntemler geliştirmeleri
+          istenir.
+          <br /> <br />
+          <b>KURAL: </b> Yumurta elle yakalanamaz, ip veya kordona dokunulamaz
         </p>
         <div className="social_media_icons_row"></div>
       </div>
-
 
       <div className="info_right">
         <div className="container info_container1">
@@ -27,22 +40,30 @@ const InfoWorkshop = () => {
 
           <article className="info_article" onClick={handleCategoryClick1}>
             <img src={Img} alt="" />
-            <a href="/bahcemiz"><h5>Bahçemiz</h5></a>
+            <Link to="/tanisma-oyunu">
+              <h5>Tanışma Oyunu</h5>
+            </Link>
           </article>
 
           <article className="info_article" onClick={handleCategoryClick1}>
             <img src={Img} alt="" />
-            <h5>Sağlık ve Beslenme</h5>
+            <Link to="/taksi-yolcu-oyunu">
+            <h5>Taksici Yolcu Oyunu</h5>
+            </Link>
           </article>
 
           <article className="info_article" onClick={handleCategoryClick1}>
             <img src={Img} alt="" />
-            <a href="/siniflarimiz"><h5>Sınıflarımız</h5></a>
+            <Link to="/sismograf-yapimi">
+              <h5>Sismograf Yapımı</h5>
+            </Link>
           </article>
 
           <article className="info_article" onClick={handleCategoryClick1}>
             <img src={Img} alt="" />
-            <a href="/kutuphanemiz"><h5>Kütüphanemiz</h5></a>
+            <Link to="/kutuphanemiz">
+              <h5>Sağlık ve Beslenme</h5>
+            </Link>
           </article>
         </div>
 
@@ -65,9 +86,15 @@ const InfoWorkshop = () => {
           </p>
 
           <div className="contact_button_div">
-          <Link to="/iletisim" onClick={()=>{
-                    window.scrollTo(0,0);
-                  }} className='btn btn-primary-color'>İletişim</Link>
+            <Link
+              to="/iletisim"
+              onClick={() => {
+                window.scrollTo(0, 0);
+              }}
+              className="btn btn-primary-color"
+            >
+              İletişim
+            </Link>
           </div>
         </div>
       </div>

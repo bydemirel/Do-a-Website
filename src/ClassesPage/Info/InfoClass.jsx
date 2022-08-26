@@ -7,19 +7,27 @@ const InfoClass = () => {
   return (
     <section className="info">
       <div className="info_left">
-        <h1 className="info_left_title">Sınıflarımız</h1>
+        <h1 className="info_left_title">Duyu Oyunu</h1>
 
         <div className="info_left_image">
           <img src={Img} alt="" />
         </div>
         <p className="info_left_text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quas volupta,
-          ab in corporis.Voluptatem cum harum ipsum, facilis ducimus varitatis
-          optio.
+          Bu oyun için tahtadan yapılmış kutular kullanılır. Tahta kutular
+          mevcut değilse Kolayca bir karton kutudan (ayakkabı kutusundan)
+          oluşturulabilir. Çocukların elinin giriş yeri elleri içeri girecek
+          büyüklükte kesilir, örtmek için ise siyah kumaş yapıştırılır. Grubun
+          büyüklüğüne göre farklı sayıda kutular hazırlanır. Her kutuda farklı
+          ağacın Yaprakları, meyveleri, ağaç kabukları koyulur. Yeni başlayanlar
+          için ceviz veya meşe gibi ağaçların meyveleri, dalları, yaprakları
+          seçilebilir. Algılayıcı kutusundaki ağaca ait birden fazla ürün
+          kullanılabilir. Biraz daha zor olması istenirse fındık, üvez veya
+          ıhlamur ağacının ürünleri, konulabilir. Daha zor bir seviyede ise
+          kutuya ağacın sadece bir parçası, örneğin yalnızca Yaprağı veya dalı
+          konulabilir.
         </p>
         <div className="social_media_icons_row"></div>
       </div>
-
 
       <div className="info_right">
         <div className="container info_container1">
@@ -27,22 +35,30 @@ const InfoClass = () => {
 
           <article className="info_article" onClick={handleCategoryClick1}>
             <img src={Img} alt="" />
-            <a href="/bahcemiz"><h5>Bahçemiz</h5></a>
+            <Link to="/dogadaki-nesneleri-dokunarak-tanima-oyunu">
+              <h5>Doğadaki Nesneleri Tanıma Oyunu</h5>
+            </Link>
           </article>
 
           <article className="info_article" onClick={handleCategoryClick1}>
             <img src={Img} alt="" />
-            <a href="/atolyemiz"><h5>Atölyemiz</h5></a>
+            <Link to="/dusen-yumurtayi-kurtarma-etkinligi">
+              <h5>Düşen Yumurtayı Kurtarma Etkinliği</h5>
+            </Link>
           </article>
 
           <article className="info_article" onClick={handleCategoryClick1}>
             <img src={Img} alt="" />
-            <h5>Sağlık ve Beslenme</h5>
+            <Link to="/tanisma-oyunu">
+              <h5>Tanışma Oyunu</h5>
+            </Link>
           </article>
 
           <article className="info_article" onClick={handleCategoryClick1}>
             <img src={Img} alt="" />
-            <a href="/kutuphanemiz"><h5>Kütüphanemiz</h5></a>
+            <Link to="/taksici-yolcu-oyunu">
+              <h5>Taksici Yolcu Oyunu</h5>
+            </Link>
           </article>
         </div>
 
@@ -65,9 +81,15 @@ const InfoClass = () => {
           </p>
 
           <div className="contact_button_div">
-          <Link to="/iletisim" onClick={()=>{
-                    window.scrollTo(0,0);
-                  }} className='btn btn-primary-color'>İletişim</Link>
+            <Link
+              to="/iletisim"
+              onClick={() => {
+                window.scrollTo(0, 0);
+              }}
+              className="btn btn-primary-color"
+            >
+              İletişim
+            </Link>
           </div>
         </div>
       </div>

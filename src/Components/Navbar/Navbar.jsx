@@ -36,7 +36,7 @@ const Navbar = () => {
   return (
       <nav>
           <div className="container nav_container">
-              <a href="/"><h4>DOĞA</h4></a>
+              <Link to="/"><h4>DOĞA</h4></Link>
               <ul className={showMenu ? 'nav_menu':'nav_menu_open'}>
                   <li>
                     <Link to="/" onClick={handleClickLink} >Ana Sayfa</Link>
@@ -44,6 +44,10 @@ const Navbar = () => {
 
                   <li>
                       <Link to="/hakkimizda"  onClick={handleClickLink} >Hakkımızda</Link>
+                  </li>
+
+                  <li>
+                      <Link to="/gelisim-alanları"  onClick={handleClickLink} >Gelişim Alanları</Link>
                   </li>
 
                   <li>

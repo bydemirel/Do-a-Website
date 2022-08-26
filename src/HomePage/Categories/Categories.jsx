@@ -8,37 +8,37 @@ const Categories = () => {
     const navigate = useNavigate();
 
     const handleCategoryClick1 = () => {
-        navigate('/ormangunleri');
+        navigate('/koku-ve-hafiza-oyunu');
         window.scrollTo(0,0);
     }
 
     const handleCategoryClick2 = () => {
-        navigate('/siniflarimiz');
+        navigate('/duyu-oyunu');
         window.scrollTo(0,0);
     }
 
     const handleCategoryClick3 = () => {
-        navigate('/bahcemiz');
+        navigate('/dogadaki-nesneleri-dokunarak-tanima-oyunu');
         window.scrollTo(0,0);
     }
 
     const handleCategoryClick4 = () => {
-        navigate('/atolyemiz');
+        navigate('/dusen-yumurtayi-kurtarma-etkinligi');
         window.scrollTo(0,0);
     }
 
     const handleCategoryClick5 = () => {
-        navigate('/kutuphanemiz');
+        navigate('/tanisma-oyunu');
         window.scrollTo(0,0);
     }
 
     const handleCategoryClick6 = () => {
-        navigate('/ozelgunlerimiz');
+        navigate('/taksici-yolcu-oyunu');
         window.scrollTo(0,0);
     }
 
     const handleCategoryClick7 = () => {
-        navigate('/hareketegitimi');
+        navigate('/sismograf-yapimi');
         window.scrollTo(0,0);
     }
 
@@ -52,7 +52,7 @@ const Categories = () => {
       <section className='categories'>
           <div className='container categories_container'>
               <div className="categories_left">
-                  <h1>Categories</h1>
+                  <h1>Aktivitelerimiz</h1>
                   <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                       Quas volupta, ab in corporis.Voluptatem cum harum ipsum, 
@@ -65,43 +65,43 @@ const Categories = () => {
 
                   <article className='category' onClick={handleCategoryClick1}>
                       <span className='category_icon'><i><FaTree></FaTree></i></span>
-                      <h5>Orman Günleri</h5>
+                      <h5>Koku ve Hafıza Oyunu</h5>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nisi.</p>
                   </article>
 
                   <article className='category' onClick={handleCategoryClick2}>
                       <span className='category_icon'><i><FaTree></FaTree></i></span>
-                      <h5>Sınıflarımız</h5>
+                      <h5>Duyu Oyunu</h5>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nisi.</p>
                   </article>
 
                   <article className='category' onClick={handleCategoryClick3}>
                       <span className='category_icon'><i><FaTree></FaTree></i></span>
-                      <h5>Bahçemiz</h5>
+                      <h5>Doğadaki Nesneleri Tanıma Oyunu</h5>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nisi.</p>
                   </article>
 
                   <article className='category' onClick={handleCategoryClick4}>
                       <span className='category_icon'><i><FaTree></FaTree></i></span>
-                      <h5>Atölyemiz</h5>
+                      <h5>Düşen Yumurtayı Kurtarma Etkinliği</h5>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nisi.</p>
                   </article>
 
                   <article className='category' onClick={handleCategoryClick5}>
                       <span className='category_icon'><i><FaTree></FaTree></i></span>
-                      <h5>Doğa'da Kütüphanemiz</h5>
+                      <h5>Tanışma Oyunu</h5>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nisi.</p>
                   </article>
 
                   <article className='category' onClick={handleCategoryClick6}>
                       <span className='category_icon'><i><FaTree></FaTree></i></span>
-                      <h5>Doğa'da Özel Günler</h5>
+                      <h5>Taksici Yolcu Oyunu</h5>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nisi.</p>
                   </article>
                   
                   <article className='category' onClick={handleCategoryClick7}>
                       <span className='category_icon'><i><FaTree></FaTree></i></span>
-                      <h5>Doğa'da Hareket Eğitimi</h5>
+                      <h5>Sismograf Yapımı</h5>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nisi.</p>
                   </article>
 
