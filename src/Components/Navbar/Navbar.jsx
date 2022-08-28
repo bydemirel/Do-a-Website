@@ -47,7 +47,7 @@ const Navbar = () => {
                   </li>
 
                   <li>
-                      <Link to="/gelisim-alanları"  onClick={handleClickLink} >Gelişim Alanları</Link>
+                      <Link to="/gelisim-alanlari"  onClick={handleClickLink} >Gelişim Alanları</Link>
                   </li>
 
                   <li>

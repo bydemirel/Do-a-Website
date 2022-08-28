@@ -16,18 +16,19 @@ const InfoWorkshop = () => {
           Takımın zaman baskısı altında hareket etmesi ve tepki vermesi gereken
           bir etkinlik.
           <br /> <br />
-          <b>Malzemeler: </b> Çiğ yumurta; ip; bant;
-          kronometre(yumurtaların ziyan olmaması için yumurta eşdeğer ağırlıkta,
-          erik vb. meyveler de kullanılabilir.)
+          <b>Malzemeler: </b> Çiğ yumurta; ip; bant; kronometre(yumurtaların
+          ziyan olmaması için yumurta eşdeğer ağırlıkta, erik vb. meyveler de
+          kullanılabilir.)
           <br /> <br />
-          <b>Hazırlık: </b> İp yüksek bir dalın
-          üzerinden atılır; sabitlenir. Diğer ucuna ise yumurta yapıştırılıp
-          3-4m ( yaş gurubuna göre daha kısa tutulabilir.) yukarıya çekilir.
-          <br /><br />
-          <b>Süreç: </b> Takıma yumurtanın 5 dakika sonra yere düşeceği açıklanarak,
-          takımdaki çocukların sadece ormanda buldukları doğal malzemeleri
-          kullanarak yumurtayı kırılmaktan kurtaracak yöntemler geliştirmeleri
-          istenir.
+          <b>Hazırlık: </b> İp yüksek bir dalın üzerinden atılır; sabitlenir.
+          Diğer ucuna ise yumurta yapıştırılıp 3-4m ( yaş gurubuna göre daha
+          kısa tutulabilir.) yukarıya çekilir.
+          <br />
+          <br />
+          <b>Süreç: </b> Takıma yumurtanın 5 dakika sonra yere düşeceği
+          açıklanarak, takımdaki çocukların sadece ormanda buldukları doğal
+          malzemeleri kullanarak yumurtayı kırılmaktan kurtaracak yöntemler
+          geliştirmeleri istenir.
           <br /> <br />
           <b>KURAL: </b> Yumurta elle yakalanamaz, ip veya kordona dokunulamaz
         </p>
@@ -39,28 +40,36 @@ const InfoWorkshop = () => {
           <h3>Diğer Doğa'da Yaşamlar</h3>
 
           <article className="info_article" onClick={handleCategoryClick1}>
-            <img src={Img} alt="" />
+            <Link to="/tanisma-oyunu">
+              <img src={Img} alt="" />
+            </Link>
             <Link to="/tanisma-oyunu">
               <h5>Tanışma Oyunu</h5>
             </Link>
           </article>
 
           <article className="info_article" onClick={handleCategoryClick1}>
-            <img src={Img} alt="" />
             <Link to="/taksi-yolcu-oyunu">
-            <h5>Taksici Yolcu Oyunu</h5>
+              <img src={Img} alt="" />
+            </Link>
+            <Link to="/taksi-yolcu-oyunu">
+              <h5>Taksici Yolcu Oyunu</h5>
             </Link>
           </article>
 
           <article className="info_article" onClick={handleCategoryClick1}>
-            <img src={Img} alt="" />
+            <Link to="/sismograf-yapimi">
+              <img src={Img} alt="" />
+            </Link>
             <Link to="/sismograf-yapimi">
               <h5>Sismograf Yapımı</h5>
             </Link>
           </article>
 
           <article className="info_article" onClick={handleCategoryClick1}>
-            <img src={Img} alt="" />
+            <Link to="/kutuphanemiz">
+              <img src={Img} alt="" />
+            </Link>
             <Link to="/kutuphanemiz">
               <h5>Sağlık ve Beslenme</h5>
             </Link>

@@ -44,28 +44,36 @@ const InfoForrest = () => {
           <h3>Diğer Doğa'da Yaşamlar</h3>
 
           <article className="info_article">
-            <img src={Img} alt="" />
+            <Link to="/duyu-oyunu">
+              <img src={Img} alt="" />
+            </Link>
             <Link to="/duyu-oyunu">
               <h5>Duyu Oyunu</h5>
             </Link>
           </article>
 
           <article className="info_article">
-            <img src={Img} alt="" />
+            <Link to="/dogadaki-nesneleri-dokunarak-tanima-oyunu">
+              <img src={Img} alt="" />
+            </Link>
             <Link to="/dogadaki-nesneleri-dokunarak-tanima-oyunu">
               <h5>Doğadaki Nesneleri Tanıma Oyunu</h5>
             </Link>
           </article>
 
           <article className="info_article">
-            <img src={Img} alt="" />
+            <Link to="/dusen-yumurtayi-kurtarma-etkinligi">
+              <img src={Img} alt="" />
+            </Link>
             <Link to="/dusen-yumurtayi-kurtarma-etkinligi">
               <h5>Düşen Yumurtayı Kurtarma Etkinliği</h5>
             </Link>
           </article>
 
           <article className="info_article">
-            <img src={Img} alt="" />
+            <Link to="/tanisma-oyunu">
+              <img src={Img} alt="" />
+            </Link>
             <Link to="/tanisma-oyunu">
               <h5>Tanışma Oyunu</h5>
             </Link>

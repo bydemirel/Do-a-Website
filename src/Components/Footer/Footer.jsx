@@ -28,6 +28,11 @@ const Footer = () => {
               }}>Hakkımızda</Link>
             </li>
             <li>
+              <Link to="/gelisim-alanlari" onClick={()=>{
+                window.scrollTo(0,0);
+              }}>Gelişim Alanları</Link>
+            </li>
+            <li>
               <Link to="/iletisim" onClick={()=>{
                   window.scrollTo(0,0);
               }}>İletişim</Link>

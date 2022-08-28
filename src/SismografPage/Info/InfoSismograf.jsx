@@ -75,28 +75,36 @@ const InfoWorkshop = () => {
           <h3>Diğer Doğa'da Yaşamlar</h3>
 
           <article className="info_article" onClick={handleCategoryClick1}>
-            <img src={Img} alt="" />
+            <Link to="/bahcemiz">
+              <img src={Img} alt="" />
+            </Link>
             <Link to="/bahcemiz">
               <h5>Bahçemiz</h5>
             </Link>
           </article>
 
           <article className="info_article" onClick={handleCategoryClick1}>
-            <img src={Img} alt="" />
+            <Link to="/koku-ve-hafiza-oyunu">
+              <img src={Img} alt="" />
+            </Link>
             <Link to="/koku-ve-hafiza-oyunu">
               <h5>Koku Ve Hafıza Oyunu</h5>
             </Link>
           </article>
 
           <article className="info_article" onClick={handleCategoryClick1}>
-            <img src={Img} alt="" />
+            <Link to="/duyu-oyunu">
+              <img src={Img} alt="" />
+            </Link>
             <Link to="/duyu-oyunu">
               <h5>Duyu Oyunu</h5>
             </Link>
           </article>
 
           <article className="info_article" onClick={handleCategoryClick1}>
-            <img src={Img} alt="" />
+            <Link to="/dogadaki-nesneleri-dokunarak-tanima-oyunu">
+              <img src={Img} alt="" />
+            </Link>
             <Link to="/dogadaki-nesneleri-dokunarak-tanima-oyunu">
               <h5>Doğadaki Nesneleri Tanıma Oyunu</h5>
             </Link>

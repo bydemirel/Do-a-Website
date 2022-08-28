@@ -2,6 +2,7 @@ import React from 'react'
 import "./Categories.css"
 import {FaTree} from 'react-icons/fa';
 import {useNavigate } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const Categories = () => {
 
@@ -52,13 +53,13 @@ const Categories = () => {
       <section className='categories'>
           <div className='container categories_container'>
               <div className="categories_left">
-                  <h1>Aktivitelerimiz</h1>
+                  <h1>Etkinliklerimiz</h1>
                   <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                       Quas volupta, ab in corporis.Voluptatem cum harum ipsum, 
                       facilis ducimus varitatis optio.
                   </p>
-                  <a href="/" className='btn'>Daha Fazla</a>
+                  <Link to="/" className='btn'>Daha Fazla</Link>
               </div>
 
               <div className="categories_right">

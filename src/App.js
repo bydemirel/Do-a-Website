@@ -17,6 +17,7 @@ import WorkshopPage from "./WorkshopPage/WorkshopPage";
 import LibraryPage from "./LibraryPage/LibraryPage";
 import SpecialDaysPage from "./SpecialDaysPage/SpecialDaysPage";
 import SismografPage from "./SismografPage/SismografPage";
+import DevelopmentAreasPage from "./DevelopmentAreasPage/DevelopmentAreasPage";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage/>}/>
           <Route path="/hakkimizda" element={<AboutUsPage/>}/>
+          <Route path="/gelisim-alanlari" element={<DevelopmentAreasPage/>}/>
           <Route path="/iletisim" element={<ContactPage/>}/>
           <Route path="koku-ve-hafiza-oyunu" element={<ForrestDaysPage/>}/>
           <Route path="duyu-oyunu" element={<ClassesPage/>}/>
@@ -33,6 +35,7 @@ function App() {
           <Route path="dusen-yumurtayi-kurtarma-etkinligi" element={<WorkshopPage/>}/>
           <Route path="tanisma-oyunu" element={<LibraryPage/>}/>
           <Route path="taksici-yolcu-oyunu" element={<SpecialDaysPage/>}/>
+          <Route path="sismograf-yapimi" element={<SismografPage/>}/>
           <Route path="sismograf-yapimi" element={<SismografPage/>}/>
         </Routes>
       </BrowserRouter>

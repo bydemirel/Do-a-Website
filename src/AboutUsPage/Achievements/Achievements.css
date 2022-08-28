@@ -16,7 +16,7 @@
 
 .achievements_cards{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     gap: 1.5rem;
 }
 
@@ -47,9 +47,9 @@
     background: var(--color-success);
 }
 
-.achievement_card :nth-child(3) .achievement_icon{
+/*.achievement_card :nth-child(3) .achievement_icon{
     background: var(--color-primary);
-}
+}*/
 
 .achievement_card p {
     margin-top: 1rem;

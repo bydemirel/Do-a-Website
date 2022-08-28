@@ -42,28 +42,36 @@ const InfoSpecial = () => {
           <h3>Diğer Doğa'da Yaşamlar</h3>
 
           <article className="info_article" onClick={handleCategoryClick1}>
-            <img src={Img} alt="" />
+            <Link to="/sismograf-yapimi">
+              <img src={Img} alt="" />
+            </Link>
             <Link to="/sismograf-yapimi">
               <h5>Sismograf Yapımı</h5>
             </Link>
           </article>
 
           <article className="info_article" onClick={handleCategoryClick1}>
-            <img src={Img} alt="" />
+            <Link to="/sismograf-yapimi">
+              <img src={Img} alt="" />
+            </Link>
             <Link to="/sismograf-yapimi">
               <h5>Sağlık ve Beslenme</h5>
             </Link>
           </article>
 
           <article className="info_article" onClick={handleCategoryClick1}>
-            <img src={Img} alt="" />
+            <Link to="/koku-ve-hafiza-oyunu">
+              <img src={Img} alt="" />
+            </Link>
             <Link to="/koku-ve-hafiza-oyunu">
               <h5>Koku Ve Hafıza Oyunu</h5>
             </Link>
           </article>
 
           <article className="info_article" onClick={handleCategoryClick1}>
-            <img src={Img} alt="" />
+            <Link to="/duyu-oyunu">
+              <img src={Img} alt="" />
+            </Link>
             <Link to="/duyu-oyunu">
               <h5>Duyu Oyunu</h5>
             </Link>
