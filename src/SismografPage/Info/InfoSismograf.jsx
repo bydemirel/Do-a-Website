@@ -75,11 +75,11 @@ const InfoWorkshop = () => {
           <h3>Diğer Doğa'da Yaşamlar</h3>
 
           <article className="info_article" onClick={handleCategoryClick1}>
-            <Link to="/bahcemiz">
+            <Link to="/yaz-etkinlikleri">
               <img src={Img} alt="" />
             </Link>
-            <Link to="/bahcemiz">
-              <h5>Bahçemiz</h5>
+            <Link to="/yaz-etkinlikleri">
+              <h5>Yaz Etkinlikleri</h5>
             </Link>
           </article>
 

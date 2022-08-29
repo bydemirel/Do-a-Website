@@ -59,8 +59,12 @@ const InfoLibrary = () => {
             </Link>
           </article>
           <article className="info_article" onClick={handleCategoryClick1}>
-            <img src={Img} alt="" />
-            <h5>Sağlık ve Beslenme</h5>
+            <Link to="/yaz-etkinlikleri">
+              <img src={Img} alt="" />
+            </Link>
+            <Link to="/yaz-etkinlikleri">
+              <h5>Yaz Etkinlikleri</h5>
+            </Link>
           </article>
 
           <article className="info_article" onClick={handleCategoryClick1}>
