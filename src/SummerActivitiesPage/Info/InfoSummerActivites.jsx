@@ -27,46 +27,43 @@ const InfoSummerActivites = () => {
           <br />
           <img src={Img2} alt="" style={{ width: 200, heigth: 200 }} />
           <br />
-          3. İşitme duyunuzu geliştirin: Bahçede, şehirde hangi kuş seslerini
-          ayırt edebilirsiniz? (örneğin karatavuk, serçe, baştankara, çalıkuşu).
-          Kuş gözlemlerine katılın.
+          3. Ormanda hangikuş seslerini ayırt edebilirsiniz? Bir kereliğine
+          birinin sesini dikkatli dinleyin ve tanımaya çalışın.
           <br />
-          4. İşitme duyunuzu geliştirin: Bahçede, şehirde hangi kuş seslerini
-          ayırt edebilirsiniz? (örneğin karatavuk, serçe, baştankara, çalıkuşu).
-          Kuş gözlemlerine katılın.
-          <br />
-          <br />
-          <img src={Img2} alt="" style={{ width: 200, heigth: 200 }} />
-          <br />
-          5. İşitme duyunuzu geliştirin: Bahçede, şehirde hangi kuş seslerini
-          ayırt edebilirsiniz? (örneğin karatavuk, serçe, baştankara, çalıkuşu).
-          Kuş gözlemlerine katılın.
-          <br />
-          6. İşitme duyunuzu geliştirin: Bahçede, şehirde hangi kuş seslerini
-          ayırt edebilirsiniz? (örneğin karatavuk, serçe, baştankara, çalıkuşu).
-          Kuş gözlemlerine katılın.
+          4. Ormanda sessizce oturun ve sesleri dinleyin: Kuş sesleri hangi
+          yönden geliyor? İnsan sesleri, hışırtı, rüzgar ağaçkakan vuruşu vb.
+          var mı?
           <br />
           <br />
           <img src={Img2} alt="" style={{ width: 200, heigth: 200 }} />
           <br />
-          7. İşitme duyunuzu geliştirin: Bahçede, şehirde hangi kuş seslerini
-          ayırt edebilirsiniz? (örneğin karatavuk, serçe, baştankara, çalıkuşu).
-          Kuş gözlemlerine katılın.
+          5. Bir göl veya gölet kenarında güvenli bir yer seçin. Dürbününüzü
+          alın çevrenizi, gözlemleyin ve sesleri dinleyin. Kuş seslerini nereden
+          geliyor? Dürbünle kuşun tüylerini seçebilir misin? Kuşu net görebilir
+          misin? Başka hayvanları görebiliyor ve duyabiliyor musun?
           <br />
-          8. İşitme duyunuzu geliştirin: Bahçede, şehirde hangi kuş seslerini
-          ayırt edebilirsiniz? (örneğin karatavuk, serçe, baştankara, çalıkuşu).
-          Kuş gözlemlerine katılın.
+          6. Ormanda yosunlu bir alan bulun ve gözlem yapın: Yosun dünyasında
+          hangi hayvanları keşfediyorsunuz?
           <br />
           <br />
           <img src={Img2} alt="" style={{ width: 200, heigth: 200 }} />
           <br />
-          9. İşitme duyunuzu geliştirin: Bahçede, şehirde hangi kuş seslerini
-          ayırt edebilirsiniz? (örneğin karatavuk, serçe, baştankara, çalıkuşu).
-          Kuş gözlemlerine katılın.
+          7. Kendinize bir su büyüteci yapın ve bir dere kenarında keşif turuna
+          çıkın: Suyun altında ne görüyorsunuz? Suyun üstünde neler yüzebiliyor,
+          neler batıyor?
           <br />
-          10. İşitme duyunuzu geliştirin: Bahçede, şehirde hangi kuş seslerini
-          ayırt edebilirsiniz? (örneğin karatavuk, serçe, baştankara, çalıkuşu).
-          Kuş gözlemlerine katılın.
+          8. Su kenarından büyük bir taşı dikkatlice kaldırın ve altına bakın.
+          Altından hangi hayvanlar var? Taş kendini nasıl hissediyordur?
+          <br />
+          <br />
+          <img src={Img2} alt="" style={{ width: 200, heigth: 200 }} />
+          <br />
+          9. Bir suda koşan böceğini gözlemleyin ve neden ve nasıl su üzerinde
+          yürüyebildiğini öğrenin. Başka kimler, neler yüzebiliyor?
+          <br />
+          10. Bir yusufçuk gözlemleyin. Diğer böceklere kıyasla ne kadar hızlı
+          uçabiliyor? Bir noktada sürekli uçabilir mi? Bu sana neyi
+          hatırlatıyor? Diğer böcekler de aynı şeyi yapabilir mi?
         </p>
         <div className="social_media_icons_row"></div>
       </div>
