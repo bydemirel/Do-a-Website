@@ -9,26 +9,7 @@ const Achievements = () => {
   return (
     <section className="about_achievements">
       <div className="container about_achievements-container">
-        <div className="about_achievements-left">
-          <img src={AchievementsImage} alt="" />
-          <p>
-            <br /><br />
-            Almanya’da uygulanan orman ve doğa Pedagojisini, Türk Milli Eğitim
-            Müfredatına uygun bir şekilde okul öncesi ve ilkokullarda görev
-            yapan eğitimci ve öğretmenlere bireysel eğitim sağlamayı, özel
-            kurumlara kurum içi eğitimlerle orman okulunda yapılacak yıllık
-            planların hazırlanmasında, projelerin yürütülmesinde, kıyafet,
-            ekipman, alan seçimi, güvenlik önlemleri alanında bilgilendirerek
-            destek olmayı amaçlıyoruz.
-            <br />
-            <br />
-            Diğer bir hedefimiz de devlet anaokulu ve ilkokullarında görev yapan
-            öğretmenlere orman günü planlamalarında etkinlik hazırlama, etkinlik
-            ve proje yürütmede destek olmak.
-          </p>
-        </div>
-
-        <div className="about_achievements-right">
+      <div className="about_achievements-right">
           <h1>Neden Doğa</h1>
           <p>
             Özellikle son birkaç yıldır, çocukların daha fazla doğanın içinde
@@ -77,6 +58,25 @@ const Achievements = () => {
               <p>Etkinliklerimiz</p>
             </article>
           </div>
+        </div>
+        
+        <div className="about_achievements-left">
+          <img src={AchievementsImage} alt="" />
+          <p>
+            <br /><br />
+            Almanya’da uygulanan orman ve doğa Pedagojisini, Türk Milli Eğitim
+            Müfredatına uygun bir şekilde okul öncesi ve ilkokullarda görev
+            yapan eğitimci ve öğretmenlere bireysel eğitim sağlamayı, özel
+            kurumlara kurum içi eğitimlerle orman okulunda yapılacak yıllık
+            planların hazırlanmasında, projelerin yürütülmesinde, kıyafet,
+            ekipman, alan seçimi, güvenlik önlemleri alanında bilgilendirerek
+            destek olmayı amaçlıyoruz.
+            <br />
+            <br />
+            Diğer bir hedefimiz de devlet anaokulu ve ilkokullarında görev yapan
+            öğretmenlere orman günü planlamalarında etkinlik hazırlama, etkinlik
+            ve proje yürütmede destek olmak.
+          </p>
         </div>
       </div>
     </section>

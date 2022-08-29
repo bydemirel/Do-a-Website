@@ -1,8 +1,8 @@
 import React from 'react'
 import "./ImageSwiper.css";
-import Img from "../../images/avatar1.jpg";
-import Img2 from "../../images/avatar2.jpg";
-import Img3 from "../../images/avatar3.jpg";
+import Img from "../../images/forrest1.jpg";
+import Img2 from "../../images/children-running.jpg";
+import Img3 from "../../images/forrest2.jpg";
 
 
 const ImageSwiper = () => {

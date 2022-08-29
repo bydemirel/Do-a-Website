@@ -52,7 +52,7 @@ const InfoWorkshop = () => {
             <Link to="/taksi-yolcu-oyunu">
               <img src={Img} alt="" />
             </Link>
-            <Link to="/taksi-yolcu-oyunu">
+            <Link to="/taksici-yolcu-oyunu">
               <h5>Taksici Yolcu Oyunu</h5>
             </Link>
           </article>

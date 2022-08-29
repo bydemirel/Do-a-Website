@@ -16,7 +16,7 @@ const InfoLibrary = () => {
           <b>Hedef kitle: </b>Yaklaşık 6 yaşından büyük çocuklar
           <br />
           <br />
-          <b>Malzeme: </b>büyük çam kozalakları veya küçük toplar Öğretmen grubu
+          <b>Malzeme: </b>Büyük çam kozalakları veya küçük toplar Öğretmen grubu
           karşılar, kendini tanıtır ve çocuklara Bir daire içinde sıralanmak
           için. Bir çocuğa çam kozalağı veya top atar ve sorar kısaca kendinizi
           tanıtmak. Daha sonra Bu çocuk kozalakları atmaya devam ediyor. Her

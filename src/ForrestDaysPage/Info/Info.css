@@ -86,6 +86,12 @@
     margin: 1rem 0 2.4rem;
 }
 
+@media screen and (max-width: 1024px) { 
+    .info{
+        grid-template-columns: 1fr;
+    }
+}
+
 @media screen and (max-width: 600px) { 
     .info{
         grid-template-columns: 1fr;

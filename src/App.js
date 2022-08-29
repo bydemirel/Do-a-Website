@@ -18,6 +18,7 @@ import LibraryPage from "./LibraryPage/LibraryPage";
 import SpecialDaysPage from "./SpecialDaysPage/SpecialDaysPage";
 import SismografPage from "./SismografPage/SismografPage";
 import DevelopmentAreasPage from "./DevelopmentAreasPage/DevelopmentAreasPage";
+import SummerActivitiesPage from "./SummerActivitiesPage/SummerActivitiesPage";
 
 function App() {
   return (
@@ -36,7 +37,7 @@ function App() {
           <Route path="tanisma-oyunu" element={<LibraryPage/>}/>
           <Route path="taksici-yolcu-oyunu" element={<SpecialDaysPage/>}/>
           <Route path="sismograf-yapimi" element={<SismografPage/>}/>
-          <Route path="sismograf-yapimi" element={<SismografPage/>}/>
+          <Route path="yaz-etkinlikleri" element={<SummerActivitiesPage/>}/>
         </Routes>
       </BrowserRouter>
 

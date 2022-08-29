@@ -6,6 +6,76 @@ const DevelopmentAreas = () => {
   return (
     <section className="about_achievements">
       <div className="container about_achievements-container">
+        <div className="about_achievements-right">
+          <h2>
+            ORMAN VE DOĞA PEDAGOJİSİNDE GÖZLEMLENMESİ GEREKEN GELİŞİM ALANLARI
+          </h2>
+          <h4 className="subtitle">PSİKOMOTOR GELİŞİM ALANI: BEDEN VÜCUT</h4>
+          <p>
+            -El göz koordinasyonunun uyumu gözlemleme -Hareket eden varlıkları
+            gözleriyle takip edebilme.
+            <br />
+            -Vücudun merkezini işaretleyebilme.
+            <br />
+            -Nesnelere karşı gücünü uyumlu kullanabilme -Hareket ederken
+            koordinasyonu sağlama.
+            <br />
+            -Vücut dengesini sağlayabilme. (kaba motor)
+            <br />
+            -Dil ve dudak motoru -El parmak ile becerileri yapabilme (ince
+            motor.)
+          </p>
+          <img src={AchievementsImage} alt="" />
+          <br />
+          <br />
+          <h4 className="subtitle">GELİŞİM ALANI: DİL</h4>
+          <p>
+            -Kelimeleri kelime gruplarına göre düzenleme.
+            <br />
+            -Sözlü direktifleri anlama ve uygulayabilme.
+            <br />
+            -Yaşına uygun kelime dağarcığına sahip olma.
+            <br />
+            -Kurallı cümleler kurma.
+            <br />
+            -Kelime çeşitlerini anlamına uygun kullanabilme.
+            <br />
+            -Konuşmasını hareketlerle bütünleştirebilme.
+            <br />
+            -Bütün sesleri tanıma ve kullanma.
+            <br />
+            -Yer edatlarını doğru kullanma, altında, üstünde, içinde.
+          </p>
+          <img src={AchievementsImage} alt="" />
+          <br />
+          <br />
+          <h4 className="subtitle">GELİŞİM ALANI: ÇALIŞMA DÜZENİ</h4>
+          <p>
+            -Tek başına basit problemleri çözme.
+            <br />
+            -Karmaşık problemleri çözme.
+            <br />
+            -Sorunları çözerken sesli düşünme.
+            <br />
+            -Görevini ertesi gün de devam etme isteği.
+            <br />
+            -Görev sıralamasını gözlenebilme.
+            <br />
+            -Planlarını ifade etme.
+          </p>
+          <h4 className="subtitle">GELİŞİM ALANI: DUYGUSAL</h4>
+          <p>
+            -Diğer çocuklarla grup oluşturma.
+            <br />
+            -Arkadaşlarına üzüldüğünde destek yardım sunma; Kendini diğer
+            çocukların yerine koyabilme. (empati)
+            <br />
+            -Diğer çocukların isteklerini dikkate alma.
+            <br />
+            -Diğer çocuklarla kavgaya neden oluşturma.
+          </p>
+        </div>
+
         <div className="about_achievements-left">
           <img src={AchievementsImage} alt="" />
           <br />
@@ -89,76 +159,6 @@ const DevelopmentAreas = () => {
             -Bireysel veya grup bilinciyle oynama.
             <br />
             -Lider kişilik.
-          </p>
-        </div>
-
-        <div className="about_achievements-right">
-          <h2>
-            ORMAN VE DOĞA PEDAGOJİSİNDE GÖZLEMLENMESİ GEREKEN GELİŞİM ALANLARI
-          </h2>
-          <h4 className="subtitle">PSİKOMOTOR GELİŞİM ALANI: BEDEN VÜCUT</h4>
-          <p>
-            -El göz koordinasyonunun uyumu gözlemleme -Hareket eden varlıkları
-            gözleriyle takip edebilme.
-            <br />
-            -Vücudun merkezini işaretleyebilme.
-            <br />
-            -Nesnelere karşı gücünü uyumlu kullanabilme -Hareket ederken
-            koordinasyonu sağlama.
-            <br />
-            -Vücut dengesini sağlayabilme. (kaba motor)
-            <br />
-            -Dil ve dudak motoru -El parmak ile becerileri yapabilme (ince
-            motor.)
-          </p>
-          <img src={AchievementsImage} alt="" />
-          <br />
-          <br />
-          <h4 className="subtitle">GELİŞİM ALANI: DİL</h4>
-          <p>
-            -Kelimeleri kelime gruplarına göre düzenleme.
-            <br />
-            -Sözlü direktifleri anlama ve uygulayabilme.
-            <br />
-            -Yaşına uygun kelime dağarcığına sahip olma.
-            <br />
-            -Kurallı cümleler kurma.
-            <br />
-            -Kelime çeşitlerini anlamına uygun kullanabilme.
-            <br />
-            -Konuşmasını hareketlerle bütünleştirebilme.
-            <br />
-            -Bütün sesleri tanıma ve kullanma.
-            <br />
-            -Yer edatlarını doğru kullanma, altında, üstünde, içinde.
-          </p>
-          <img src={AchievementsImage} alt="" />
-          <br />
-          <br />
-          <h4 className="subtitle">GELİŞİM ALANI: ÇALIŞMA DÜZENİ</h4>
-          <p>
-            -Tek başına basit problemleri çözme.
-            <br />
-            -Karmaşık problemleri çözme.
-            <br />
-            -Sorunları çözerken sesli düşünme.
-            <br />
-            -Görevini ertesi gün de devam etme isteği.
-            <br />
-            -Görev sıralamasını gözlenebilme.
-            <br />
-            -Planlarını ifade etme.
-          </p>
-          <h4 className="subtitle">GELİŞİM ALANI: DUYGUSAL</h4>
-          <p>
-            -Diğer çocuklarla grup oluşturma.
-            <br />
-            -Arkadaşlarına üzüldüğünde destek yardım sunma; Kendini diğer
-            çocukların yerine koyabilme. (empati)
-            <br />
-            -Diğer çocukların isteklerini dikkate alma.
-            <br />
-            -Diğer çocuklarla kavgaya neden oluşturma.
           </p>
         </div>
 

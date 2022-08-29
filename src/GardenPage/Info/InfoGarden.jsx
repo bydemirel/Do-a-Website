@@ -18,7 +18,7 @@ const InfoGarden = () => {
           <b>Çalışma süresi: </b> 10- 20 dk.
           <br />
           <br />
-          <b>Oyuncu sayısı: </b> küçükten büyüğe tüm gruplar
+          <b>Oyuncu sayısı: </b> Küçükten büyüğe tüm gruplar
           <br />
           <br />
           <b>Açıklama: </b> Oyuna hazırlanmak için oyunu yöneten kişi tarafından

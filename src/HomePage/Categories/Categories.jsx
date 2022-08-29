@@ -1,6 +1,8 @@
 import React from 'react'
 import "./Categories.css"
-import {FaTree} from 'react-icons/fa';
+import {FaTree, FaTaxi} from 'react-icons/fa';
+import {GiHumanEar, GiShakingHands, GiEasterEgg, GiHand, GiNoseSide} from 'react-icons/gi';
+import {WiEarthquake} from 'react-icons/wi';
 import {useNavigate } from 'react-router-dom';
 import { Link } from "react-router-dom";
 
@@ -44,7 +46,7 @@ const Categories = () => {
     }
 
     const handleCategoryClick8 = () => {
-        navigate('/saglikvebeslenme');
+        navigate('/yaz-etkinlikleri');
         window.scrollTo(0,0);
     }
 
@@ -65,50 +67,50 @@ const Categories = () => {
               <div className="categories_right">
 
                   <article className='category' onClick={handleCategoryClick1}>
-                      <span className='category_icon'><i><FaTree></FaTree></i></span>
+                      <span className='category_icon'><i><GiNoseSide></GiNoseSide></i></span>
                       <h5>Koku ve Hafıza Oyunu</h5>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nisi.</p>
                   </article>
 
                   <article className='category' onClick={handleCategoryClick2}>
-                      <span className='category_icon'><i><FaTree></FaTree></i></span>
+                      <span className='category_icon'><i><GiHumanEar></GiHumanEar></i></span>
                       <h5>Duyu Oyunu</h5>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nisi.</p>
                   </article>
 
                   <article className='category' onClick={handleCategoryClick3}>
-                      <span className='category_icon'><i><FaTree></FaTree></i></span>
-                      <h5>Doğadaki Nesneleri Tanıma Oyunu</h5>
+                      <span className='category_icon'><i><GiHand></GiHand></i></span>
+                      <h5>Doğadaki Nesneleri Dokunarak Tanıma Oyunu</h5>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nisi.</p>
                   </article>
 
                   <article className='category' onClick={handleCategoryClick4}>
-                      <span className='category_icon'><i><FaTree></FaTree></i></span>
+                      <span className='category_icon'><i><GiEasterEgg></GiEasterEgg></i></span>
                       <h5>Düşen Yumurtayı Kurtarma Etkinliği</h5>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nisi.</p>
                   </article>
 
                   <article className='category' onClick={handleCategoryClick5}>
-                      <span className='category_icon'><i><FaTree></FaTree></i></span>
+                      <span className='category_icon'><i><GiShakingHands></GiShakingHands></i></span>
                       <h5>Tanışma Oyunu</h5>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nisi.</p>
                   </article>
 
                   <article className='category' onClick={handleCategoryClick6}>
-                      <span className='category_icon'><i><FaTree></FaTree></i></span>
+                      <span className='category_icon'><i><FaTaxi></FaTaxi></i></span>
                       <h5>Taksici Yolcu Oyunu</h5>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nisi.</p>
                   </article>
                   
                   <article className='category' onClick={handleCategoryClick7}>
-                      <span className='category_icon'><i><FaTree></FaTree></i></span>
+                      <span className='category_icon'><i><WiEarthquake></WiEarthquake></i></span>
                       <h5>Sismograf Yapımı</h5>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nisi.</p>
                   </article>
 
                   <article className='category' onClick={handleCategoryClick8}>
                       <span className='category_icon'><i><FaTree></FaTree></i></span>
-                      <h5>Sağlık ve Beslenme</h5>
+                      <h5>Yaz Etknilikleri</h5>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nisi.</p>
                   </article>
               </div>
