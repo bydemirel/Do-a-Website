@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Categories.css"
-import {FaTree, FaTaxi} from 'react-icons/fa';
+import {FaTaxi} from 'react-icons/fa';
+import {BsFillEmojiSunglassesFill} from  'react-icons/bs';
 import {GiHumanEar, GiShakingHands, GiEasterEgg, GiHand, GiNoseSide} from 'react-icons/gi';
 import {WiEarthquake} from 'react-icons/wi';
 import {useNavigate } from 'react-router-dom';
@@ -109,7 +110,7 @@ const Categories = () => {
                   </article>
 
                   <article className='category' onClick={handleCategoryClick8}>
-                      <span className='category_icon'><i><FaTree></FaTree></i></span>
+                      <span className='category_icon'><i><BsFillEmojiSunglassesFill></BsFillEmojiSunglassesFill></i></span>
                       <h5>Yaz Etknilikleri</h5>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nisi.</p>
                   </article>
