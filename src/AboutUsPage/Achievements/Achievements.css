@@ -10,6 +10,10 @@
     gap: 5rem;
 }
 
+.about_achievements-left > p{
+    margin: 1.6rem 0 2.5rem;
+}
+
 .about_achievements-right > p{
     margin: 1.6rem 0 2.5rem;
 }
