@@ -23,7 +23,6 @@ header{
     margin: 1rem 0 2.4rem;
 }
 
-
 @media screen and (max-width:1024px) {
     header {
         height: 55vh;
@@ -51,4 +50,5 @@ header{
     .header_left p{
         margin-bottom: 1.3rem;
     }
+
   }

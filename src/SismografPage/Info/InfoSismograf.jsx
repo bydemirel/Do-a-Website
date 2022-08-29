@@ -1,9 +1,29 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Img from "../../images/header.svg";
 
 const InfoWorkshop = () => {
-  const handleCategoryClick1 = () => {};
+  const navigate = useNavigate();
+  const handleCategoryClick1 = () => {
+    navigate("/yaz-etkinlikleri");
+    window.scrollTo(0, 0);
+  };
+
+  const handleCategoryClick2 = () => {
+    navigate("/koku-ve-hafiza-oyunu");
+    window.scrollTo(0, 0);
+  };
+
+  const handleCategoryClick3 = () => {
+    navigate("/duyu-oyunu");
+    window.scrollTo(0, 0);
+  };
+
+  const handleCategoryClick4 = () => {
+    navigate("/dogadaki-nesneleri-dokunarak-tanima-oyunu");
+    window.scrollTo(0, 0);
+  };
   return (
     <section className="info">
       <div className="info_left">
@@ -83,7 +103,7 @@ const InfoWorkshop = () => {
             </Link>
           </article>
 
-          <article className="info_article" onClick={handleCategoryClick1}>
+          <article className="info_article" onClick={handleCategoryClick2}>
             <Link to="/koku-ve-hafiza-oyunu">
               <img src={Img} alt="" />
             </Link>
@@ -92,7 +112,7 @@ const InfoWorkshop = () => {
             </Link>
           </article>
 
-          <article className="info_article" onClick={handleCategoryClick1}>
+          <article className="info_article" onClick={handleCategoryClick3}>
             <Link to="/duyu-oyunu">
               <img src={Img} alt="" />
             </Link>
@@ -101,7 +121,7 @@ const InfoWorkshop = () => {
             </Link>
           </article>
 
-          <article className="info_article" onClick={handleCategoryClick1}>
+          <article className="info_article" onClick={handleCategoryClick4}>
             <Link to="/dogadaki-nesneleri-dokunarak-tanima-oyunu">
               <img src={Img} alt="" />
             </Link>

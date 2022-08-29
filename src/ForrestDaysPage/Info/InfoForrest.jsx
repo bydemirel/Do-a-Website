@@ -1,9 +1,32 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Img from "../../images/header.svg";
+import {useNavigate } from 'react-router-dom';
 import "./Info.css";
 
 const InfoForrest = () => {
+
+  const navigate = useNavigate();
+
+  const handleClickCategories1 = () =>{
+    navigate('/duyu-oyunu');
+    window.scrollTo(0,0);
+  }
+
+  const handleClickCategories2 = () =>{
+    navigate('/dogadaki-nesneleri-dokunarak-tanima-oyunu');
+    window.scrollTo(0,0);
+  }
+
+  const handleClickCategories3 = () =>{
+    navigate('/dusen-yumurtayi-kurtarma-etkinligi');
+    window.scrollTo(0,0);
+  }
+
+  const handleClickCategories4 = () =>{
+    navigate('/tanisma-oyunu');
+    window.scrollTo(0,0);
+  }
   return (
     <section className="info">
       <div className="info_left">
@@ -43,7 +66,7 @@ const InfoForrest = () => {
         <div className="container info_container1">
           <h3>Diğer Doğa'da Yaşamlar</h3>
 
-          <article className="info_article">
+          <article className="info_article" onClick={handleClickCategories1}>
             <Link to="/duyu-oyunu">
               <img src={Img} alt="" />
             </Link>
@@ -52,7 +75,7 @@ const InfoForrest = () => {
             </Link>
           </article>
 
-          <article className="info_article">
+          <article className="info_article" onClick={handleClickCategories2}>
             <Link to="/dogadaki-nesneleri-dokunarak-tanima-oyunu">
               <img src={Img} alt="" />
             </Link>
@@ -61,7 +84,7 @@ const InfoForrest = () => {
             </Link>
           </article>
 
-          <article className="info_article">
+          <article className="info_article" onClick={handleClickCategories3}>
             <Link to="/dusen-yumurtayi-kurtarma-etkinligi">
               <img src={Img} alt="" />
             </Link>
@@ -70,7 +93,7 @@ const InfoForrest = () => {
             </Link>
           </article>
 
-          <article className="info_article">
+          <article className="info_article" onClick={handleClickCategories4}>
             <Link to="/tanisma-oyunu">
               <img src={Img} alt="" />
             </Link>

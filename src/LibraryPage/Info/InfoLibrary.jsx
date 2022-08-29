@@ -1,9 +1,29 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Img from "../../images/header.svg";
+import { useNavigate } from "react-router-dom";
 
 const InfoLibrary = () => {
-  const handleCategoryClick1 = () => {};
+  const navigate = useNavigate();
+  const handleCategoryClick1 = () => {
+    navigate("/taksici-yolcu-oyunu");
+    window.scrollTo(0, 0);
+  };
+
+  const handleCategoryClick2 = () => {
+    navigate("/sismograf-yapimi");
+    window.scrollTo(0, 0);
+  };
+
+  const handleCategoryClick3 = () => {
+    navigate("/yaz-etkinlikleri");
+    window.scrollTo(0, 0);
+  };
+
+  const handleCategoryClick4 = () => {
+    navigate("/koku-ve-hafiza-oyunu");
+    window.scrollTo(0, 0);
+  };
   return (
     <section className="info">
       <div className="info_left">
@@ -50,7 +70,7 @@ const InfoLibrary = () => {
             </Link>
           </article>
 
-          <article className="info_article" onClick={handleCategoryClick1}>
+          <article className="info_article" onClick={handleCategoryClick2}>
             <Link to="/sismograf-yapimi">
               <img src={Img} alt="" />
             </Link>
@@ -58,7 +78,7 @@ const InfoLibrary = () => {
               <h5>Sismograf Yapımı</h5>
             </Link>
           </article>
-          <article className="info_article" onClick={handleCategoryClick1}>
+          <article className="info_article" onClick={handleCategoryClick3}>
             <Link to="/yaz-etkinlikleri">
               <img src={Img} alt="" />
             </Link>
@@ -67,7 +87,7 @@ const InfoLibrary = () => {
             </Link>
           </article>
 
-          <article className="info_article" onClick={handleCategoryClick1}>
+          <article className="info_article" onClick={handleCategoryClick4}>
             <Link to="/koku-ve-hafiza-oyunu">
               <img src={Img} alt="" />
             </Link>
