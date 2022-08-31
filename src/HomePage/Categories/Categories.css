@@ -17,6 +17,7 @@
 
 .categories_left {
   margin-right: 2rem;
+  margin-bottom: 2rem;
 }
 
 .categories_left p {
@@ -62,7 +63,7 @@
   font-size: 0.85rem;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1480px) {
   .categories {
     height: auto;
   }
